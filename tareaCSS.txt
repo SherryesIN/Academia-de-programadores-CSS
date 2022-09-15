@@ -1,0 +1,7 @@
+Añade estilo a una hoja de vida
+
+En grupos de máximo 3 personas
+
+Clona el repositorio https://github.com/ada-school/JSFS-CSS-lab.git .
+
+Sigue las instrucciones del archivo README.md

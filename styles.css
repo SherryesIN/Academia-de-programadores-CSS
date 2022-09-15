@@ -1,0 +1,74 @@
+
+
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  gap: 10px;
+  background-color: rgba(99, 96, 96, 0.5);
+  padding: 10px;
+}
+.grid-container > div {
+    background-color: rgba(73, 70, 70, 0.4);
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+  }
+   
+ body { 
+         color: rgb(27, 27, 24);
+         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+         font-size: 15px;
+         text-align: center;
+         background-image: url(https://images3.alphacoders.com/723/thumb-1920-72397.jpg);
+         background-repeat: repeat;
+         background-position: center;
+         background-size: cover;
+      }
+
+h1{
+        color: rgb(255, 254, 249);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+        font-size: 30px;
+        text-align: center;
+        border: solid 5px rgb(243, 213, 44);
+        background-image: url(https://wallpaperaccess.com/full/4046783.jpg);
+        background-repeat: repeat;
+        background-position: center;
+        background-size: cover;
+    }
+h2{
+        color: rgb(255, 241, 241, 0.9);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+        font-size: 25px;
+        text-align: center;
+        border: solid 5px rgb(243, 213, 44, 0.6);
+        background-image: url(https://wallpaperaccess.com/full/4046783.jpg);
+        background-repeat: repeat;
+        background-position: center;
+        background-size: cover;}
+
+li{
+        color: rgb(10, 10, 10);
+        background-color:rgb(159, 161, 139, 0.5);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+        font-size: 20px;
+        text-align: left;
+        opacity: 0.7;
+    }
+
+img {
+        border: solid 5px rgb(243, 213, 44, 0.8);
+        background-color: rgb(0, 0, 0, 0.5);
+        border-style: dashed;
+        border-width: 10px;
+    
+}
